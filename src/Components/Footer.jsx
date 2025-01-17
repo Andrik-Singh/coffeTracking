@@ -6,7 +6,7 @@ const Footer = () => {
       </h1>
       <div>
         <a href="https://github.com/Andrik-Singh/coffeTracking" target="_blank"> <i className="fa-brands fa-github text-white fa-xl"></i></a>
-      
+        <br /><a href="https://www.flaticon.com/free-icons/food" className="text-white" title="food icons">Food icons created by Freepik - Flaticon</a>
       </div>
     </footer>
   )
