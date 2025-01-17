@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    table{
+        @apply border-collapse border-2 shadow-sm shadow-black
+    }
+    th{
+        @apply border-collapse border-2 h-20 md:text-3xl text-xl bg-slate-400
+    }
+    td{
+        @apply border-collapse border-2 h-20 md:text-2xl text-sm bg-slate-200
+    }
+    h1{
+        @apply text-2xl font-Merriweather pt-1
+    }
+    html{
+        @apply scroll-smooth font-Fredoka italic
+    }
+    .text-gradient-brown{
+        @apply text-transparent bg-clip-text bg-gradient-to-r from-[#5C4033] to-[#F5F5DC]
+    }
+    .text-gradient-blue{
+        @apply text-transparent bg-clip-text bg-gradient-to-r from-[#22c1c3] to-[#fdbb2d] 
+    }
+}
